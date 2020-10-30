@@ -1,9 +1,32 @@
-body {
-  font-family: 'Helvetica Neue', sans-serif;
-  text-align: center;
-}
+// SETTINGS
+@import "settings/variables";
 
-img {
-  display: block;
-  margin: 50px auto;
-}
+// TOOLS
+@import "tools/mixin";
+
+// GENERIC
+@import "generic/normalize";
+@import "generic/reset";
+
+// ELEMENTS
+@import "elements/body";
+@import "elements/animation";
+
+// OBJECTS
+@import "objects/loading";
+@import "objects/icon";
+
+// COMPONENTS
+@import "components/sharetime";
+@import "components/caimodal";
+@import "components/battery";
+@import "components/card";
+@import "components/nav";
+
+// SECTIONS
+@import "sections/loadingPage";
+@import "sections/header";
+@import "sections/main";
+@import "sections/footer";
+
+// UTILITIES
