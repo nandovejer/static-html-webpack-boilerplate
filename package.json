@@ -57,5 +57,7 @@
     "url": "https://github.com/erickzhao/static-html-webpack-boilerplate/issues"
   },
   "homepage": "https://github.com/erickzhao/static-html-webpack-boilerplate#readme",
-  "dependencies": {}
+  "dependencies": {
+    "ua-parser-js": "^0.7.22"
+  }
 }

@@ -162,22 +162,22 @@
 
   &#{&}--device {
     .card__icon {
-      @extend .icon;
-      @extend .iconbg-devices;
+      // @extend .icon;
+      // @extend .iconbg-devices;
     }
   }
 
   &#{&}--os {
     .card__icon {
-      @extend .icon;
-      @extend .iconbg-os;
+      // @extend .icon;
+      // @extend .iconbg-os;
     }
   }
 
   &#{&}--browser {
     .card__icon {
-      @extend .icon;
-      @extend .iconbg-browser;
+      // @extend .icon;
+      // @extend .iconbg-browser;
     }
   }
 
@@ -189,7 +189,7 @@
           rgba(gold, 0.85)
         ),
         linear-gradient(to left, rgba(gold, 0.85), rgba(gold, 0.85)),
-        url("../images/svg/battery.svg"), url("../images/svg/battery.svg");
+        url("../static/svg/battery.svg"), url("../static/svg/battery.svg");
       background-repeat: no-repeat;
       background-position: -150px 0, calc(100% + 150px) 0;
       background-size: 300px, 300px;
@@ -210,7 +210,7 @@
           rgba(gold, 0.85)
         ),
         linear-gradient(to left, rgba(gold, 0.85), rgba(gold, 0.85)),
-        url("../images/svg/connection.svg"), url("../images/svg/connection.svg");
+        url("../static/svg/connection.svg"), url("../static/svg/connection.svg");
       background-repeat: no-repeat;
       background-position: -150px 0, calc(100% + 150px) 0;
       background-size: 300px, 300px;
